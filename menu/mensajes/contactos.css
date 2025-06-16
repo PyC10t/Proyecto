@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+}
+header {
+    background-color: #48a1bd;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+.container {
+    padding: 20px;
+}
+h2 {
+    color: #333;
+}
+.contact-info, .form-container {
+    margin-top: 20px;
+}
+.contact-info p {
+    font-size: 16px;
+    color: #555;
+}
+.form-container form {
+    display: flex;
+    flex-direction: column;
+}
+.form-container input, .form-container textarea {
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.form-container button {
+    padding: 10px;
+    background-color: #2b7292;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.form-container button:hover {
+    background-color: #5141e6;
+}
+footer {
+    clear: both;
+    display: block;
+    width: 100%;
+    background-color: #222;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 500px;
+}

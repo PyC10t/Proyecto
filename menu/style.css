@@ -1,0 +1,54 @@
+body{
+    font-family: Arial,;
+    background-color: hsla(180, 67%, 74%, 0.87);
+    color: #090f0e;
+    margin: 3cap;
+    border: #21a4a8;
+}
+header{
+    color: #35dae6;
+    background-color: hsla(180, 67%, 74%, 0.87);
+    background-color: rgb(250, 250, 252);
+    padding: 0%;
+    text-align: center;
+}
+nav a {
+    float: left;
+    display: block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+.info-box {
+    border: 2px solid #3498db; /* borde azul */
+    background-color: #f0f8ff; /* color de fondo claro */
+    padding: 20px; /* espacio interno */
+    margin: 70px auto; /* margen exterior y centrado */
+    width: 80%; /* ancho relativo */
+    border-radius: 10px; /* bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* sombra para efecto 3D */
+}
+
+footer {
+    clear: both;
+    display: block;
+    width: 100%;
+    background-color: #222;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 500px;
+}
+.logo{
+    align-content: center;
+    display: block;
+    color: #000000;
+    background-color: #1d63a0; /* color de fondo claro */
+    padding: 20px; /* espacio interno */
+    margin: 10px auto; /* margen exterior y centrado */
+    width: 80%; /* ancho relativo */
+    border-radius: 10px; /* bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* sombra para efecto 3D */
+}
+

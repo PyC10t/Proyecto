@@ -1,0 +1,103 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #2a27a6; /* uso el color de css.css */
+    margin: 0;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; /* para que los productos pasen a otra línea si no hay espacio */
+    gap: 20px; /* espacio entre los productos */
+}
+
+.boton-volver {
+    display: inline-block;
+    background-color: #57a728;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 16px;
+    margin-top: 20px;
+    cursor: pointer;    
+    transition: background-color 0.3s ease;
+}
+
+.boton-volver:hover {
+    background-color: #17af38;
+}
+
+
+/* Tarjeta de producto */
+.producto {
+    background-color: rgb(32, 156, 173); /* color consistente */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    width: 250px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    margin: 10px;
+}
+
+.producto:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.producto img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.producto h3 {
+    color: #333;
+    margin: 10px 0 5px;
+}
+
+.producto p {
+    font-size: 18px;
+    color: #666; /* color de texto consistente */
+}
+
+.producto button {
+    background-color: #6328a7;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.producto button:hover {
+    background-color: #218838;
+}
+
+/* Footer */
+footer {
+    clear: both;
+    display: block;
+    width: 100%;
+    background-color: #222;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 500px;
+}
+
+/* Responsive */
+@media (max-width: 800px) {
+    body {
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+    }
+
+    .producto {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<div class="productos">
+    <link rel="stylesheet" href="css.css">
+</head>
+<body>
+<a href="C:\Users\Thyago Paez\Documents\html code\pagina\html\menu\pyc_menu.html" class="logo">Mi tienda</a>
+    <div class="producto">
+        <img src="cajitas.png" width="200" height="250" alt="Producto 1">
+        <h3>Producto 1</h3>
+        <p>$15.00</p>
+        <button onclick="comprar('Producto 1', 15)">Comprar</button>
+        </div>
+    
+        <div class="producto">
+        <img src="poster.png" alt="Producto 2">
+        <h3>Producto 2</h3>
+        <p>$25.00</p>
+        <button onclick="comprar('Producto 2', 25)">Comprar</button>
+        </div>
+    
+        <div class="producto">
+            <img src="cajitas.png" width="200" height="250" alt="Producto 1">
+            <h3>Producto 1</h3>
+            <p>$15.00</p>
+            <button onclick="comprar('Producto 1', 15)">Comprar</button>
+            </div>
+            
+        <div class="producto">
+            <img src="poster.png" alt="Producto 2">
+            <h3>Producto 2</h3>
+            <p>$25.00</p>
+            <button onclick="comprar('Producto 2', 25)">Comprar</button>
+        </div>
+        <script>
+        function comprar(nombre, precio) {
+            alert(`Has comprado ${nombre} por $${precio}.`);
+        }
+        </script>
+</body>
+</html>
