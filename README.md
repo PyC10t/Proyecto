@@ -1,1 +1,1 @@
-Este es un proyecto para la expotecnica echa en apñicaciones
+Este es un proyecto para la expotecnica echa en aplicaciones
